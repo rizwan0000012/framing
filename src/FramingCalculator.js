@@ -150,7 +150,7 @@ function FramingCalculator() {
       <div style={{ display: "flex", gap: "8px", marginBottom:'8px' }}>
         <div className="">
           <div> Width (in)</div>
-          <input
+          <input style={{width:'90%'}}
             type="number"
             className="text"
             ref={widthInput}
@@ -158,7 +158,7 @@ function FramingCalculator() {
         </div>
         <div>
           <div>Height (in)</div>
-          <input
+          <input style={{width:'90%'}}
             type="number"
             className="text"
             ref={heightInput}
